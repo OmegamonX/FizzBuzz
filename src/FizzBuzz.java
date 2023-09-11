@@ -12,6 +12,10 @@ class FizzBuzz {
         }
     }
 
+    public void callMain(){
+        main(null);
+    }
+
     public static int doFizzBuzz(int num) {
         // Find out which numbers divide i.
         boolean divisibleBy3 = num % 3 == 0;
