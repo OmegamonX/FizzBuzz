@@ -12,7 +12,7 @@ class FizzBuzz {
         }
     }
 
-    public void callMain(){
+    public static void callMain(){
         main(null);
     }
 
